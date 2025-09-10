@@ -47,6 +47,7 @@ We tested NeuralGrad in `test.ipynb` by training a small MLP (1 → 10 → 1) on
 ## Visulization
 For better visulization of neural network we used Graphviz library in `graph_visulization.ipynb` which produce minimal graph visulization. Below we tested it with minimal 2D nueron.
 ```
+from neuralgrad import Neuron, draw_dot
 n = Neuron(2)
 inputs =  [2.0, 1.0]
 output = n(inputs)
