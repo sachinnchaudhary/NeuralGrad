@@ -6,7 +6,7 @@ Clone the repo:
 
 ```
 bash
-git clone https://github.com/<your-username>/neuralgrad.git
+git clone https://github.com/sachinnchaudhary/neuralgrad.git
 cd neuralgrad
 pip install -r requirements.txt
 ```
@@ -36,7 +36,7 @@ g += 10.0 / f
 print(f'{g.data:.4f}')  ===  24.5000
 g.backward()
 print(f'{a.grad:.4f}')  == 140.0
-print(f'{a.grad:.4f}') == 651.0
+print(f'{b.grad:.4f}') == 651.0
 ```
 
 ## Test
